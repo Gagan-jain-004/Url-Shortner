@@ -30,6 +30,10 @@ const urlSchema = new mongoose.Schema({
 
 const Url = mongoose.model('Url',urlSchema)
 
+app.get("/",(req,res)=>{
+    res.json({Message:"Response is sended by backend"});
+})
+
 app.post('/api/short',async(req,res)=>{
     try{
         const {originalUrl} = req.body;

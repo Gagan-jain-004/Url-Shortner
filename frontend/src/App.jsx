@@ -9,7 +9,7 @@ function App() {
 
 
   const handleSubmit = ()=>{
-    axios.post('http://localhost:3000/api/short',{originalUrl})
+    axios.post('https://url-shortner-dhwk.onrender.com/api/short',{originalUrl})
    .then((res)=>{
     setShortUrl(res.data)
     console.log("Api response",res.data)
