@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100 p-4">
      <div className="bg-white  rounded-lg shadow-lg p-8 max-w-lg w-full">
-      <h1 className="text-3xl font-bold text-center mb-6 text-blue-600">URL Shortner</h1>
+      <h1 className="text-3xl font-bold text-center mb-6 text-blue-600">SHORT URL</h1>
     
       <input type="text"
       placeholder="Enter URL to  shorten"
